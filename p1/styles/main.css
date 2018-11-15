@@ -1,6 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 
-html, body {
+/* html, body {
     height: 100%;
 }
 
@@ -29,4 +29,23 @@ body {
     width: 66.66663%;
 
     background-color: black;
+} */
+
+/* Using Flex Box */
+html, body {
+    height: 100%;
+}
+.container {
+    display: flex;
+    height: 100%;
+}
+.column-one-third {
+    width: 33.3333%;
+    background-color: pink;
+    height: 100%;
+}
+.column-two-third {
+    width: 66.6666%;
+    background-color: black;
+    height: 100%;
 }
