@@ -1,5 +1,5 @@
 /* CURRENTLY IN: styles/main.css */
-
+/* 
 html, body {
     height: 100%;
 }
@@ -64,5 +64,52 @@ body {
 
 .column-green {
     background-color: green;
+} */
+
+body {
+    background-color: yellow;
 }
 
+.row {
+    display: flex;
+    border: 1px solid blue;
+    height: 14.3vh;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+}
+
+.container-full {
+    width: 100%;
+}
+
+.container-narrow {
+    width: 50%;
+}
+
+.column-one-third {
+    background-color: pink;
+    width: 33.3333%;
+}
+
+.column-two-third {
+    background-color: black;
+    width: 66.6666%;
+}
+
+.column-one-quarter {
+    width: 25%;
+    background-color: red;
+}
+
+.column-one-half {
+    width: 50%;
+    background-color: pink;
+}
+
+.column-green {
+    background-color: green;
+}
