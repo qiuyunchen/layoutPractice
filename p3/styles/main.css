@@ -1,6 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 
-html, body {
+/* html, body {
     height: 100%;
 }
 
@@ -52,5 +52,28 @@ body {
 
 .column-green {
     background-color: green;
+} */
+
+.row {
+    background-color: yellow;
+    height: 16vh;
 }
 
+.container {
+    display: flex;
+    height: 68vh;
+}
+
+.column-one-quarter {
+    width: 25%;
+    background-color: red;
+}
+
+.column-one-half {
+    width: 50%;
+    background-color: pink;
+}
+
+.column-green {
+    background-color: green;
+}
