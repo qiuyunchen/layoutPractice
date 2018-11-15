@@ -1,6 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 
-html, body {
+/* html, body {
     height: 100%;
 }
 
@@ -36,4 +36,25 @@ body {
     width: 66.66663%;
 
     background-color: black;
+} */
+
+.row {
+    background-color: yellow;
+    height: 16vh;
+}
+
+.container {
+    display: flex;
+}
+
+.column-one-third {
+    background-color: pink;
+    width: 33.3333%;
+    height: 68vh;
+}
+
+.column-two-third {
+    background-color: black;
+    width: 66.6666%;
+    height: 68vh;
 }
